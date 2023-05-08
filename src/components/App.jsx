@@ -19,7 +19,7 @@ export const App = () => {
     return Object.values(value).reduce((a, b) => a + b, 0);
   };
 
-  const countPositiveFeedbackPercentage = (a, b) => {
+  const countPositiveFeedbackPercentage = () => {
     const total = Object.values(value).reduce((a, b) => a + b, 0);
     return total > 0 ? `${Math.round((value.good / total) * 100)}%` : 0;
   };
