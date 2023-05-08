@@ -10,7 +10,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage, title }) =>
       <SpanStyled>Total:{total}</SpanStyled>
       <SpanStyled>Positive feedback:{positivePercentage}</SpanStyled>
     </StatsContainer>
-  );
+  ); 
 };
 Statistics.propTypes = {
   good: PropTypes.number.isRequired,
